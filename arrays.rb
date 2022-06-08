@@ -14,3 +14,7 @@ cost_gas.shift
 owns_car = [true, true, false, true]
 #unshift will add an additional boolean (false) to the front of the array
 owns_car.unshift(false)
+
+dog_breeds = ["corgi", "husky", "german shepard", "pug"]
+#insert will add the string "pitbull" into the array in index position 1
+dog_breeds.insert(1, "pitbull")
